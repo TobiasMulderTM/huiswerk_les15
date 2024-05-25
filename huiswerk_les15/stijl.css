@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #004d99; /* Donkerblauw */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -20,10 +20,11 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffcc00;
+    color: #66b3ff; /* Lichter blauw */
 }
 
 .container {
@@ -33,11 +34,13 @@ nav a:hover {
     width: 80%;
     max-width: 800px;
     text-align: center;
+    border-radius: 8px;
 }
 
 .container img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 footer {
@@ -50,17 +53,20 @@ input, textarea {
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #333;
+    background-color: #004d99;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background-color: #ffcc00;
+    background-color: #66b3ff;
 }
 
 table {
@@ -76,4 +82,10 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #e9f5ff; /* Lichtblauw */
+    color: #333;
 }
